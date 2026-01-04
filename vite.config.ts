@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   define: {
-    // Это позволит коду использовать process.env.API_KEY в браузере
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY)
   }
 });
