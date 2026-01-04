@@ -1,0 +1,5 @@
+{
+  "name": "AutoBlur License Plate",
+  "description": "An advanced tool to automatically detect and blur car license plates in photos using Gemini's vision capabilities and local canvas processing for privacy.",
+  "requestFramePermissions": []
+}
